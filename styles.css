@@ -1,0 +1,100 @@
+header{
+    background-color: lightpink;
+    font-style: italic;
+    text-align: end;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+
+.card1{
+    color: lightgoldenrodyellow;
+    font-size: small;
+    border-image-width: 2px black
+    
+}
+
+body{
+    background-color: lightblue;
+}
+.pi{
+    font-size: small;
+}
+
+h5{
+    font-style: italic;
+    font-weight: 80px;
+    color: blue;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+    color: darkslategray;
+}
+h2{
+font-size: larger;
+}
+
+h6{
+text-align: center;
+font-style: italic;
+font-size: larger;
+}
+
+h1{
+    font-size: larger;
+    text-align: center;
+    color: darkblue;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 150px;
+
+
+}
+
+.logo{
+
+    width: 100px;
+}
+.card{
+    width: 400px;
+    border: 3px solid darkblue;
+    background-color: lightcyan;
+    padding: 28px;
+    margin: 22px auto;
+    text-align: center;
+    font-style: italic;
+    font-size: larger orange;
+}
+
+
+    
+
+footer{
+    background-color: #ed91e0;
+    font-size: small;
+    padding: 7px;
+    border: 1px blue;
+    text-align: center;
+    font-style: italic;
+}
+
+
+@media screen and (max-width:700px) {}
+    header{
+     flex-direction: column;
+     align-items: start;
+     justify-content: start;
+    }
+ 
+    h1{
+     font-size: 23px;
+    }
+
+
+
+
+
